@@ -78,8 +78,11 @@ namespace ClientRest_20180140108_Kinanthie_M_Putrie
         }
         static void Main(string[] args)
         {
-            
-            
+            ClassData cl = new ClassData();
+            cl.getData();
+            Program app = new Program();
+            app.BuatMahasiswa();
+            Console.ReadLine();
         }
     }
 }
